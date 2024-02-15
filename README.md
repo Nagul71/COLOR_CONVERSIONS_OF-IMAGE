@@ -56,7 +56,7 @@ Split and merge HSV Image
 ![Screenshot 2024-02-15 223223](https://github.com/Nagul71/COLOR_CONVERSIONS_OF-IMAGE/assets/118661118/8ad47d8a-6b7c-4d42-9528-bdb153fecafc)
 
 ### ii)Write the image
-```
+```py
     import cv2
     image=cv2.imread('Dog.jpg',0)
     cv2.imwrite('White Dog.jpg',image)
@@ -65,7 +65,7 @@ Split and merge HSV Image
 ![image](https://github.com/Nagul71/COLOR_CONVERSIONS_OF-IMAGE/assets/118661118/22d7ae02-9d57-47d8-97c8-beebca453676)
 
 ### iii)Shape of the Image
-```
+```py
     import cv2
     image=cv2.imread('Dog.jpg',1)
     print(image.shape)
@@ -75,7 +75,7 @@ Split and merge HSV Image
 
 
 ### iv)Access rows and columns
-```
+```py
     import random
     import cv2
     image=cv2.imread('Dog.jpg',1)
@@ -94,7 +94,7 @@ Split and merge HSV Image
 
 
 ### v)Cut and paste portion of image
-```
+```py
    import cv2
    image=cv2.imread('Dog.jpg',1)
    image=cv2.resize(image,(400,400))
@@ -109,7 +109,7 @@ Split and merge HSV Image
 
 
 ### vi) BGR and RGB to HSV and GRAY
-```
+```py
 import cv2
 img = cv2.imread('Dog.jpg',1)
 img = cv2.resize(img,(300,200))
@@ -134,7 +134,7 @@ cv2.destroyAllWindows()
 
 
 ### vii) HSV to RGB and BGR
-```
+```py
 import cv2
 img = cv2.imread('Dog.jpg')
 img = cv2.resize(img,(300,200))
@@ -155,7 +155,7 @@ cv2.destroyAllWindows()
 
 
 ### viii) RGB and BGR to YCrCb
-```
+```py
 import cv2
 img = cv2.imread('Dog.jpg')
 img = cv2.resize(img,(300,200))
@@ -173,7 +173,7 @@ cv2.destroyAllWindows()
 ![Screenshot 2024-02-15 223813](https://github.com/Nagul71/COLOR_CONVERSIONS_OF-IMAGE/assets/118661118/466eb010-9d44-4344-ab7d-5718dc2545be)
 
 ### ix) Split and merge RGB Image
-```
+```py
 import cv2
 img = cv2.imread('Dog.jpg',1)
 img = cv2.resize(img,(300,200))
@@ -196,7 +196,7 @@ cv2.destroyAllWindows()
 
 
 ### x) Split and merge HSV Image
-```
+```py
 import cv2
 img = cv2.imread("Dog.jpg",1)
 img = cv2.resize(img,(300,200))
